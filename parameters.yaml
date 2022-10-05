@@ -6,8 +6,8 @@ data_source:
 load_data:
   num_classes: 3
   raw_data: source_data
-  preprocessed_data: data/processed
+  preprocessed_data: data/processed/
   full_p: /deep_mlops/source_data
 
 train_split:
-  split_ratio: 0.1
+  split_ratio: 80
